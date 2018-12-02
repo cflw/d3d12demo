@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "纹理立方体", "纹理�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "简单立方体", "简单立方体\简单立方体.vcxproj", "{009A529D-1AEF-4D3B-8EFD-8E8A08F6487B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "深度模板", "深度模板\深度模板.vcxproj", "{F67EA965-CA51-4721-A43F-D852968CB3AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{009A529D-1AEF-4D3B-8EFD-8E8A08F6487B}.Release|x64.Build.0 = Release|x64
 		{009A529D-1AEF-4D3B-8EFD-8E8A08F6487B}.Release|x86.ActiveCfg = Release|Win32
 		{009A529D-1AEF-4D3B-8EFD-8E8A08F6487B}.Release|x86.Build.0 = Release|Win32
+		{F67EA965-CA51-4721-A43F-D852968CB3AF}.Debug|x64.ActiveCfg = Debug|x64
+		{F67EA965-CA51-4721-A43F-D852968CB3AF}.Debug|x64.Build.0 = Debug|x64
+		{F67EA965-CA51-4721-A43F-D852968CB3AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{F67EA965-CA51-4721-A43F-D852968CB3AF}.Debug|x86.Build.0 = Debug|Win32
+		{F67EA965-CA51-4721-A43F-D852968CB3AF}.Release|x64.ActiveCfg = Release|x64
+		{F67EA965-CA51-4721-A43F-D852968CB3AF}.Release|x64.Build.0 = Release|x64
+		{F67EA965-CA51-4721-A43F-D852968CB3AF}.Release|x86.ActiveCfg = Release|Win32
+		{F67EA965-CA51-4721-A43F-D852968CB3AF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

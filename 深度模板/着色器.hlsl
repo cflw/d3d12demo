@@ -1,25 +1,25 @@
-cbuffer cb0 : register(b0) {
-	matrix g_world;
-	matrix g_view;
-	matrix g_projection;
+﻿cbuffer cb0 : register(b0) {
+	matrix g世界;
+	matrix g视图;
+	matrix g投影;
 }
-struct VS {
-	float3 pos : POSITION0;
-	float4 color : COLOR0;
+struct S空间v {
+	float3 m位置 : POSITION0;
+	float4 m颜色 : COLOR0;
 };
-struct PS {
-	float4 pos : SV_POSITION;
-	float4 color : COLOR0;
+struct S空间s {
+	float4 m位置 : SV_POSITION;
+	float4 m颜色 : COLOR0;
 };
-PS vs(VS i) {
-	PS o;
-	o.pos = float4(i.pos, 1);
-	o.pos = mul(o.pos, g_world);
-	o.pos = mul(o.pos, g_view);
-	o.pos = mul(o.pos, g_projection);
-	o.color = i.color;
-	return o;
+S空间s f空间v(S空间v a) {
+	S空间s v;
+	v.m位置 = float4(a.m位置, 1);
+	v.m位置 = mul(v.m位置, g世界);
+	v.m位置 = mul(v.m位置, g视图);
+	v.m位置 = mul(v.m位置, g投影);
+	v.m颜色 = a.m颜色;
+	return v;
 }
-float4 ps(PS i) : SV_TARGET {
-	return i.color;
+float4 f空间p(S空间s a) : SV_TARGET {
+	return a.m颜色;
 }

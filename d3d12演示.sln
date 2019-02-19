@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "空白窗口", "空白窗口\空白窗口.vcxproj", "{281F4CBA-CD1E-42E7-B775-BD596FB1EB42}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cflw代码库cpp", "C:\cflw\OneDrive\文档\开发\cflw代码库\cflw代码库.vcxproj", "{AD010D5B-4048-48C8-9BE6-82484BEC32B1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cflw代码库cpp", "%cflw_develop%\cflw代码库\cflw代码库.vcxproj", "{AD010D5B-4048-48C8-9BE6-82484BEC32B1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "简单三角形", "简单三角形\简单三角形.vcxproj", "{58C3681C-B8E8-466A-A863-1323D1F6A1D5}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "深度模板", "深度模板\深度模板.vcxproj", "{F67EA965-CA51-4721-A43F-D852968CB3AF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "曲面细分", "曲面细分\曲面细分.vcxproj", "{D8AB6451-0C0E-4569-9686-D2D3FD86692C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "分辨率与全屏", "分辨率与全屏\分辨率与全屏.vcxproj", "{88CB1939-6246-4045-A301-2A3B647E113D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "染色", "染色\染色.vcxproj", "{B1F1D782-B839-413F-B0D2-4A969665534F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,22 @@ Global
 		{D8AB6451-0C0E-4569-9686-D2D3FD86692C}.Release|x64.Build.0 = Release|x64
 		{D8AB6451-0C0E-4569-9686-D2D3FD86692C}.Release|x86.ActiveCfg = Release|Win32
 		{D8AB6451-0C0E-4569-9686-D2D3FD86692C}.Release|x86.Build.0 = Release|Win32
+		{88CB1939-6246-4045-A301-2A3B647E113D}.Debug|x64.ActiveCfg = Debug|x64
+		{88CB1939-6246-4045-A301-2A3B647E113D}.Debug|x64.Build.0 = Debug|x64
+		{88CB1939-6246-4045-A301-2A3B647E113D}.Debug|x86.ActiveCfg = Debug|Win32
+		{88CB1939-6246-4045-A301-2A3B647E113D}.Debug|x86.Build.0 = Debug|Win32
+		{88CB1939-6246-4045-A301-2A3B647E113D}.Release|x64.ActiveCfg = Release|x64
+		{88CB1939-6246-4045-A301-2A3B647E113D}.Release|x64.Build.0 = Release|x64
+		{88CB1939-6246-4045-A301-2A3B647E113D}.Release|x86.ActiveCfg = Release|Win32
+		{88CB1939-6246-4045-A301-2A3B647E113D}.Release|x86.Build.0 = Release|Win32
+		{B1F1D782-B839-413F-B0D2-4A969665534F}.Debug|x64.ActiveCfg = Debug|x64
+		{B1F1D782-B839-413F-B0D2-4A969665534F}.Debug|x64.Build.0 = Debug|x64
+		{B1F1D782-B839-413F-B0D2-4A969665534F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1F1D782-B839-413F-B0D2-4A969665534F}.Debug|x86.Build.0 = Debug|Win32
+		{B1F1D782-B839-413F-B0D2-4A969665534F}.Release|x64.ActiveCfg = Release|x64
+		{B1F1D782-B839-413F-B0D2-4A969665534F}.Release|x64.Build.0 = Release|x64
+		{B1F1D782-B839-413F-B0D2-4A969665534F}.Release|x86.ActiveCfg = Release|Win32
+		{B1F1D782-B839-413F-B0D2-4A969665534F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

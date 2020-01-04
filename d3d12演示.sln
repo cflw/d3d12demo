@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "分辨率与全屏", "分�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "染色", "染色\染色.vcxproj", "{B1F1D782-B839-413F-B0D2-4A969665534F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "简单二维", "简单二维\简单二维.vcxproj", "{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{B1F1D782-B839-413F-B0D2-4A969665534F}.Release|x64.Build.0 = Release|x64
 		{B1F1D782-B839-413F-B0D2-4A969665534F}.Release|x86.ActiveCfg = Release|Win32
 		{B1F1D782-B839-413F-B0D2-4A969665534F}.Release|x86.Build.0 = Release|Win32
+		{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}.Debug|x64.ActiveCfg = Debug|x64
+		{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}.Debug|x64.Build.0 = Debug|x64
+		{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}.Debug|x86.Build.0 = Debug|Win32
+		{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}.Release|x64.ActiveCfg = Release|x64
+		{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}.Release|x64.Build.0 = Release|x64
+		{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}.Release|x86.ActiveCfg = Release|Win32
+		{55F69BF0-2F2B-46E5-B96C-A1DDACCFD2CF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

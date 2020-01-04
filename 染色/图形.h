@@ -1,27 +1,27 @@
-#pragma once
-#include <cflwÊıÑ§.h>
-#include <cflwÍ¼ĞÎ_d3d12.h>
-#include <cflw¹¤¾ß.h>
-#include "Á£×Ó.h"
-namespace ÊıÑ§ = cflw::ÊıÑ§;
-namespace ÈıÎ¬ = cflw::Í¼ĞÎ::d3d12;
-namespace ¹¤¾ß = cflw::¹¤¾ß;
-class CÍ¼ĞÎ {
+ï»¿#pragma once
+#include <cflwæ•°å­¦.h>
+#include <cflwå›¾å½¢_d3d12.h>
+#include <cflwå·¥å…·.h>
+#include "ç²’å­.h"
+namespace æ•°å­¦ = cflw::æ•°å­¦;
+namespace ä¸‰ç»´ = cflw::å›¾å½¢::d3d12;
+namespace å·¥å…· = cflw::å·¥å…·;
+class Cå›¾å½¢ {
 public:
-	void f³õÊ¼»¯(HWND);
-	void fÏú»Ù();
-	void f¼ÆËã();
-	void f¸üĞÂ();
-	void fÏÔÊ¾();
-	ÈıÎ¬::CÈıÎ¬ mÈıÎ¬;
-	ÈıÎ¬::tp¸ùÇ©Ãû m¸ùÇ©Ãû;
-	ÈıÎ¬::tpÍ¼ĞÎ¹ÜÏß mÍ¼ĞÎ¹ÜÏß;
-	ÈıÎ¬::tp¶¥µã m¶¥µã;
-	ÈıÎ¬::tpÎÆÀí mÎÆÀí;
-	ÈıÎ¬::tp³£Á¿ m³£Á¿;
-	std::byte *mpÓ³Éä = nullptr;
-	CÁ£×Ó maÁ£×Ó¶ÔÏó[cÁ£×ÓÊıÁ¿] = {};
-	CÁ£×Ó¹¤³§ mÁ£×Ó¹¤³§;
-	float mÊ±¼ä = 0;
-	float m¼ÆÊ± = 0;
+	void fåˆå§‹åŒ–(HWND);
+	void fé”€æ¯();
+	void fè®¡ç®—();
+	void fæ›´æ–°();
+	void fæ˜¾ç¤º();
+	ä¸‰ç»´::Cä¸‰ç»´ mä¸‰ç»´;
+	ä¸‰ç»´::tpæ ¹ç­¾å mæ ¹ç­¾å;
+	ä¸‰ç»´::tpå›¾å½¢ç®¡çº¿ må›¾å½¢ç®¡çº¿;
+	ä¸‰ç»´::tpé¡¶ç‚¹ mé¡¶ç‚¹;
+	ä¸‰ç»´::tpçº¹ç† mçº¹ç†;
+	ä¸‰ç»´::tpå¸¸é‡ må¸¸é‡;
+	std::byte *mpæ˜ å°„ = nullptr;
+	Cç²’å­ maç²’å­å¯¹è±¡[cç²’å­æ•°é‡] = {};
+	Cç²’å­å·¥å‚ mç²’å­å·¥å‚;
+	float mæ—¶é—´ = 0;
+	float mè®¡æ—¶ = 0;
 };

@@ -1,13 +1,13 @@
-struct S平面p {
-	float4 m位置 : SV_POSITION;
-	float4 m颜色 : COLOR0;
+锘縮truct S骞抽潰p {
+	float4 m浣嶇疆 : SV_POSITION;
+	float4 m棰滆壊 : COLOR0;
 };
-S平面p f平面v(float2 a位置 : POSITION, float4 a颜色 : COLOR0) {
-	S平面p v输出;
-	v输出.m位置 = float4(a位置, 0, 1);
-	v输出.m颜色 = a颜色;
-	return v输出;
+S骞抽潰p f骞抽潰v(float2 a浣嶇疆 : POSITION, float4 a棰滆壊 : COLOR0) {
+	S骞抽潰p v杈撳嚭;
+	v杈撳嚭.m浣嶇疆 = float4(a浣嶇疆, 0, 1);
+	v杈撳嚭.m棰滆壊 = a棰滆壊;
+	return v杈撳嚭;
 }
-float4 f平面p(S平面p a输入) : SV_TARGET{
-	return a输入.m颜色;
+float4 f骞抽潰p(S骞抽潰p a杈撳叆) : SV_TARGET{
+	return a杈撳叆.m棰滆壊;
 }

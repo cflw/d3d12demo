@@ -6,9 +6,9 @@
 * [乘风龙王的代码库(c++)](https://github.com/cflw/cflw_cpp)
 
 系统要求：
-* 操作系统：Windows 10 64位 版本1909
+* 操作系统：Windows 10 64位 版本2009
 * 显卡：支持DirectX 12的显卡，最低功能级别11_0
-* 集成开发环境：Visual Studio 2019 版本16.5
+* 集成开发环境：Visual Studio 2019 版本16.9
 * 最新的Windows 10 SDK
 
 ## 内容包含

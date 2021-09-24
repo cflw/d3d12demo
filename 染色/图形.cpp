@@ -47,7 +47,7 @@ void C图形::f初始化(HWND a窗口) {
 	v缓冲工厂.f创建顶点(m顶点, nullptr, sizeof(S粒子), c粒子数据大小);
 	m顶点->m资源->Map(0, nullptr, (void**)&mp映射);
 	//纹理
-	v纹理工厂.f从文件创建纹理(m纹理, L"子弹.jpg");
+	v纹理工厂.f从文件创建纹理资源视图(m纹理, L"子弹.png");
 	//常量
 	struct S常量 {
 		数学::S向量2 m窗口大小;

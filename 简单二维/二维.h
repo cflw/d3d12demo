@@ -15,7 +15,7 @@ public:
 	//函数
 	C二维();
 	~C二维();
-	void f初始化(三维::C三维 &);
+	void f初始化(三维::C三维 &, float 缩放 = 1);
 	void f开始();
 	void f结束();
 	std::shared_ptr<C画图形> fc画图形();
@@ -49,5 +49,5 @@ public:
 public:
 	C二维::C资源管理 *m资源管理 = nullptr;
 	数学::S颜色 m颜色 = 数学::S颜色::c白;
-	float m线条宽度 = 1;
+	float m线条宽度 = 2;
 };
